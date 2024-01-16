@@ -11,7 +11,7 @@
         box-sizing: border-box;
     } */
     .theme_showcase .main_tab_bgcolor {
-        height: auto;
+        height: 100vh;
         background-position: 50% 50% !important;
         background-size: cover !important;
         position: static;
@@ -52,10 +52,10 @@
     }
     .wrap_theme div a .text strong {
         font-size: 18.5px;
-        color: black;
+        color: gold;
     }
     .wrap_theme div a .text p {
-        color: rgba(21, 20, 20, 0.591);
+        color: goldenrod;
     }
     .wrap_theme .div {
         position: relative;
@@ -124,6 +124,7 @@
         text-decoration: none;
     }
 }
+
 @media screen and (max-width: 1023px) {
     .theme_showcase {
         height: auto;
@@ -238,6 +239,3 @@
         box-sizing: content-box;
     }
 }
-
-/* 반응형 웹 부분 만들어오기 
-돔 모양이 두개씩 올라오는걸로....*/
