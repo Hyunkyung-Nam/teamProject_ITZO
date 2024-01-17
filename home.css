@@ -73,15 +73,15 @@ body {
     animation: slider 7.5s infinite linear;
 }
 .slide:nth-child(1) {
-    background-image: url(/경복궁.jpg);
+    background-image: url(./img/경복궁.jpg);
     animation-delay: 0;
 }
 .slide:nth-child(2) {
-    background-image: url(/서울시립미술관.jpg);
+    background-image: url(./img/서울시립미술관.jpg);
     animation-delay: -2.5s;
 }
 .slide:nth-child(3) {
-    background-image: url(/봉은사.jpg);
+    background-image: url(./img/봉은사.jpg);
     animation-delay: -5s;
 }
 @keyframes slider {
