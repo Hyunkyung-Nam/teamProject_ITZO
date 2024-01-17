@@ -1,4 +1,3 @@
-new Swiper('.swiper-container');
 {
     /* <script>
   var mySwiper = new Swiper('.swiper-container', {

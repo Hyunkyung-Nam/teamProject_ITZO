@@ -1,24 +1,65 @@
-.swiper-container1 {
-    padding: 30px;
-    margin: 30px;
+body {
+    margin: 0px;
+    padding: 0px;
 }
-.swiper-wrapper1 {
-    display: flex;
-    flex-direction: row;
+
+@media screen and (min-width: 768px) and (max-width: 1500px) .tag li {
+}
+
+.tag {
     position: relative;
-    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: #001d49;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin: 0px;
+    align-items: center;
 }
-.swiper-wrapper1 a {
+.logo {
+    color: white;
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: bold;
+}
+.tag a {
     text-decoration: none;
+    color: white;
+    font-size: 19px;
+    margin: 0 30px;
+}
+.maintitle {
+    top: -400px;
+}
+.maintext {
+    position: relative;
+    text-align: left;
     color: black;
+    bottom: auto;
+    top: -400px;
+    padding-left: 50px;
+    font-size: 32px;
+}
+.maintext p b {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1500px) .slide {
+    width: 100%;
 }
 
 .slider {
     position: relative;
     overflow: hidden;
 
-    width: 400px;
-    height: 400px;
+    width: 782px;
+    height: 631px;
+    right: -500px;
+    top: 50px;
+    border: 1px solid gold;
+    border-radius: 1%;
 }
 .slide {
     position: absolute;
@@ -63,27 +104,15 @@
         transform: translateX(0);
     }
 }
-.title {
-    text-align: center;
-}
-.swiper-container2 {
-    display: block;
-}
-.swiper-wrapper2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    background-color: black;
-}
+/* 햄버거 
+
 #menuToggle {
     display: block;
     position: relative;
     top: 20px;
-    right: -380px;
+    right: -1120px;
 
     z-index: 1;
-
     -webkit-user-select: none;
     user-select: none;
 }
@@ -108,15 +137,13 @@
     left: -5px;
 
     cursor: pointer;
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
+    opacity: 0; 
+    z-index: 2; 
 
     -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
+
 #menuToggle span {
     display: block;
     width: 33px;
@@ -142,35 +169,25 @@
     transform-origin: 0% 100%;
 }
 
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+
 #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
 }
 
-/*
- * But let's hide the middle one.
- */
+
 #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+
 #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+
 #menu {
     position: absolute;
     width: 300px;
@@ -181,7 +198,7 @@
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
+    
 
     transform-origin: 100% 0%;
     transform: translate(100%, 0);
@@ -194,9 +211,8 @@
     font-size: 22px;
 }
 
-/*
- * And let's slide it in from the left
- */
+
 #menuToggle input:checked ~ ul {
     transform: translate(-100%, 0);
 }
+*/

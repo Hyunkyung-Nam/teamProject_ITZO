@@ -5,91 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="menu.css" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     </head>
     <body>
-        <nav role="navigation">
-            <div id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                    <a href="#"><li>홈</li></a>
-                    <a href="#"><li>테마</li></a>
-                    <a href="#"><li>지역별추천</li></a>
-                    <a href="#"><li>랜덤추천</li></a>
-                </ul>
-            </div>
-        </nav>
-        <div class="swiper-container1">
-            <div class="swiper-wrapper1">
-                <div class="swiper-slide1-1">
-                    <a href="">홈</a>
+        <!-- 반응형 320max 1023 -->
+        <!-- 햄버거 
+        
+            <nav role="navigation">
+                <div id="menuToggle">
+     
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="#"><li>홈</li></a>
+                        <a href="#"><li>테마</li></a>
+                        <a href="#"><li>지역별추천</li></a>
+                        <a href="#"><li>랜덤추천</li></a>
+                    </ul>
                 </div>
-                <div class="swiper-slide1-2">
-                    <a href="">테마</a>
-                </div>
-                <div class="swiper-slide1-3">
-                    <a href="">지역별 추천</a>
-                </div>
-                <div class="swiper-slide1-4">
-                    <a href="">랜덤 추천</a>
-                </div>
+            </nav>
+            
+        -->
+        <!-- 메인 -->
+
+        <header id="header" class="header">
+            <ul class="tag" id="tag">
+                <li class="logo">궁석궁석</li>
+                <li class="menu"><a href="">홈</a></li>
+                <li class="menu"><a href="">테마</a></li>
+                <li class="menu"><a href="">지역별추천</a></li>
+                <li class="menu"><a href="">랜덤추천</a></li>
+            </ul>
+        </header>
+        <div class="mainslide">
+            <div class="slider">
+                <div class="slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
             </div>
         </div>
-        <hr />
-        <div class="slider">
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-        </div>
-        <div class="title">
-            <em>"매혹적인 현대성과 깊은 역사가 공존하는 도시 서울"</em>
-            <br />
-            <em> 독특한 매력을 품은 의미있는 장소들을 만나보세요. </em>
-        </div>
-        <hr />
-        <div class="list_wrap">
-            <h3 style="color: black">미리 맛보는, 서울여행</h3>
-            <!-- Swiper -->
-            <div class="swiper-container2">
-                <div class="swiper-wrapper2">
-                    <div class="swiper-slide2-1">
-                        <span class="card1">
-                            <a href=""></a>
-                            <img src="" alt="" />
-                        </span>
-                    </div>
-                    <div class="swiper-slide2-2">
-                        <span class="card2">
-                            <a href=""></a>
-                            <img src="" alt="" />
-                        </span>
-                    </div>
-                    <div class="swiper-slide2-3">
-                        <span class="card3">
-                            <a href=""></a>
-                            <img src="" alt="" />
-                        </span>
-                    </div>
-                    <div class="swiper-slide2-4">
-                        <span class="card4">
-                            <a href=""></a>
-                            <img src="" alt="" />
-                        </span>
-                    </div>
-                    <div class="swiper-slide2-5">
-                        <span class="card5">
-                            <a href=""></a>
-                            <img src="" alt="" />
-                        </span>
-                    </div>
-                </div>
+        <div class="maintitle">
+            <div class="maintext">
+                <p><b>경복궁 </b></p>
+                <p>밤에 더 멋진 경복궁</p>
             </div>
+            <hr />
         </div>
 
         <script src="menu.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     </body>
 </html>
