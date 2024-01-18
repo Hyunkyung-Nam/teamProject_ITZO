@@ -4,27 +4,70 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>theme</title>
-        <link rel="stylesheet" href="theme_1.css" />
+        <link rel="stylesheet" href="theme_main.css" />
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     </head>
     <body>
-        <header id="gnbCommon" class="service_gnb">
+        <header>
+            <div class="logo">
+                <div class="logo_name">궁석궁석</div>
+            </div>
+            <div class="nav">
+                <div class="home"><a href="">홈</a></div>
+                <div class="theme"><a href="">테마</a></div>
+                <div class="area"><a href="">지역별 추천</a></div>
+                <div class="random"><a href="">랜덤 추천</a></div>
+            </div>
+        </header>
+        <!-- <header id="gnbCommon" class="service_gnb">
             <div class="gnb">
                 <h1 class="logo">
-                    <!-- 로고삽입 -->
+                    로고삽입
                 </h1>
                 <div class="menu">
                     <div class="depth_1">
                         <div class="swiper-container">
                             <ul class="swiper-wrapper">
-                                <!-- 배너 -->
+                                배너
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </header> -->
+        <!-- 메인 로고 누르면 메인페이지 새로고침 -->
+
+        <!-- 현경님꺼 참고!!! -->
+        <!-- <header id="header" class="header">
+            <div class="gnbCommon">
+                <div clsss="gnb">
+                    <h1 class="logo">
+                        <a href="">궁석궁석</a>
+                    </h1>
+                </div>
+                <div class="menu_list">
+                    <div class="menu_block">
+                        <ul class="tag" id="tag">
+                            <li class="menu"><a href="">홈</a></li>
+                            <li class="menu"><a href="">테마</a></li>
+                            <li class="menu"><a href="">지역별추천</a></li>
+                            <li class="menu"><a href="">랜덤추천</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </header> -->
+        <!-- <header id="header" class="header">
+            <ul class="tag" id="tag">
+                <li class="logo">궁석궁석</li>
+                <li class="menu"><a href="">홈</a></li>
+                <li class="menu"><a href="">테마</a></li>
+                <li class="menu"><a href="">지역별추천</a></li>
+                <li class="menu"><a href="">랜덤추천</a></li>
+            </ul>
+        </header> -->
         <div class="theme_showcase" id="main_tab" style="background-color: #001d49">
             <!-- 사진까지만 자를거면 아래에서 style back color 주기-->
             <div class="main_tab_bgcolor">
@@ -36,7 +79,7 @@
                 </div>
                 <div class="theme_choose">
                     <div class="wrap_theme">
-                        <div class="theme_temple_palace" style="margin-right: 0px">
+                        <div class="theme_temple_palace">
                             <a href="https://www.naver.com/" title="고궁과 절 바로가기" class="wrap">
                                 <span class="image">
                                     <!-- 이미지는 로컬에 저장되면 안되니까 방법바꿔야함 -->
@@ -94,7 +137,7 @@
             <div class="sel_area">
                 <div class="sel_member">
                     <select name="관광정보 선택" id="relation2">
-                        <option value="">관광정보</option>
+                        <option value class="default">관광정보</option>
                         <option value="https://api.visitkorea.or.kr/#/" title="새창">TourAPI4.0</option>
                         <option
                             value="https://datalab.visitkorea.or.kr/datalab/portal/main/getMainForm.do"
@@ -108,7 +151,7 @@
                 </div>
                 <div class="sel_member">
                     <select name="유관기관 선택" id="relation">
-                        <option value>유관기관</option>
+                        <option value class="default">유관기관</option>
                         <option value="http://www.mmca.go.kr" title="새창">국립현대미술관</option>
                         <option value="http://www.seoulwelcome.com" title="새창">서울관광재단</option>
                     </select>
@@ -118,6 +161,6 @@
         </div>
         <!-- 사업자 정보 쓰는 맨 마지막 부분 -->
         <div class="bottom2"></div>
-        <script src="theme_1.js"></script>
+        <script src="theme_main.js"></script>
     </body>
 </html>
