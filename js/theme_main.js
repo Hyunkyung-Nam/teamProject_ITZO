@@ -1,7 +1,6 @@
 function goRelation2() {
     let selectElement = document.getElementById('relation2');
     let selectedOption = selectElement.value;
-    // let siteUrl = selectedOption.value;
 
     if (selectedOption) {
         window.open(selectedOption, '_blank');
